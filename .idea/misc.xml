@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/jaxrs_spring_server" />
+    <file type="web" url="file://$PROJECT_DIR$/jaxws_spring_server" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/jaxws_server/pom.xml" />
+        <option value="$PROJECT_DIR$/jaxws_client/pom.xml" />
+        <option value="$PROJECT_DIR$/jaxws_spring_server/pom.xml" />
+        <option value="$PROJECT_DIR$/jaxws_spring_client/pom.xml" />
+        <option value="$PROJECT_DIR$/jaxrs_server/pom.xml" />
+        <option value="$PROJECT_DIR$/jaxrs_client/pom.xml" />
+        <option value="$PROJECT_DIR$/jaxrs_spring_server/pom.xml" />
+        <option value="$PROJECT_DIR$/jaxrs_spring_client/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
