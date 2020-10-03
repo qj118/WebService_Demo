@@ -19,6 +19,6 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>cxfServlet</servlet-name>
-    <url-pattern>/ws/*</url-pattern>
+    <url-pattern>/rs/*</url-pattern>
   </servlet-mapping>
 </web-app>

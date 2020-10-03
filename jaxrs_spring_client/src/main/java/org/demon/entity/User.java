@@ -1,7 +1,6 @@
 package org.demon.entity;
 
 import javax.xml.bind.annotation.XmlRootElement;
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -13,18 +12,15 @@ public class User {
 
     private Integer id;
     private String username;
-    private String city;
-
-    private List<Car> cars = new ArrayList<>();
+    private String hobby;
+    private List<Book> books;
 
     public User() {
     }
 
-    public User(Integer id, String username, String city, List<Car> cars) {
-        this.id = id;
+    public User(String username, String hobby) {
         this.username = username;
-        this.city = city;
-        this.cars = cars;
+        this.hobby = hobby;
     }
 
     public Integer getId() {
@@ -43,20 +39,20 @@ public class User {
         this.username = username;
     }
 
-    public String getCity() {
-        return city;
+    public String getHobby() {
+        return hobby;
     }
 
-    public void setCity(String city) {
-        this.city = city;
+    public void setHobby(String hobby) {
+        this.hobby = hobby;
     }
 
-    public List<Car> getCars() {
-        return cars;
+    public List<Book> getBooks() {
+        return books;
     }
 
-    public void setCars(List<Car> cars) {
-        this.cars = cars;
+    public void setBooks(List<Book> books) {
+        this.books = books;
     }
 
     @Override
@@ -64,8 +60,8 @@ public class User {
         return "User{" +
                 "id=" + id +
                 ", username='" + username + '\'' +
-                ", city='" + city + '\'' +
-                ", cars=" + cars +
+                ", hobby='" + hobby + '\'' +
+                ", books=" + books +
                 '}';
     }
 }
